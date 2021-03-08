@@ -1,0 +1,46 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>08.03.2021</title>
+
+    <style media="screen">
+
+    body{
+      background-color: grey;
+    }
+    h1{
+      text-align: center;
+      color: blue;
+      margin-top: 200px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1 id="risultato">esercitazione 08 03 201</h1>
+
+    <script type="text/javascript">
+
+    var cognomi = [];
+
+    for (var i = 0; i < 5; i++) {
+
+      var aggiuntaCognomi = prompt("inserisci un cognome");
+      cognomi.push(aggiuntaCognomi);
+      console.log ("non ordinati: " + cognomi + ", arr in crescita")
+    }
+
+<<<<<<< HEAD
+    console.log ("ORDINATI: " + cognomi.sort());
+=======
+    console.log ("ORDINATI: " + i + cognomi.sort());
+>>>>>>> main
+
+    var cognomiOrdinati = cognomi.sort();
+
+    for (var i = 0; i < cognomiOrdinati.length; i++) {
+      console.log ((i+1) + cognomiOrdinati[i])
+    }
+
+    </script>
+  </body>
+</html>
